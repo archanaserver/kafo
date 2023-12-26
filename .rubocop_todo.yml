@@ -623,14 +623,6 @@ Style/RedundantSelf:
     - 'lib/kafo/param.rb'
     - 'lib/kafo/puppet_module.rb'
 
-# Offense count: 2
-# Cop supports --auto-correct.
-# Configuration parameters: EnforcedStyle, AllowInnerSlashes.
-# SupportedStyles: slashes, percent_r, mixed
-Style/RegexpLiteral:
-  Exclude:
-    - 'lib/kafo/progress_bar.rb'
-
 # Offense count: 1
 # Cop supports --auto-correct.
 # Configuration parameters: EnforcedStyle.

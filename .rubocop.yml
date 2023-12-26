@@ -148,3 +148,8 @@ Layout/SpaceAroundEqualsInParameterDefault:
 
 Naming/PredicateName:
   Enabled: false
+
+Style/RegexpLiteral:
+  Enabled: true
+  Exclude:
+    - 'lib/kafo/progress_bar.rb'
